@@ -7,7 +7,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-veera
   LOCATION: North Central US
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 2e89365b-8864-49d5-b5f2-f3bb66426738
+  SUBSCRIPTION-ID: 26f428f2-2c48-4eae-a97f-2f2c76b8b299
   WEBAPP-NAME: eshoponweb-webapp-veera
  
 jobs:
