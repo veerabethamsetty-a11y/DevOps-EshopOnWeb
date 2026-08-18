@@ -1,12 +1,12 @@
 name: eShopOnWeb Build and Test
 
-#Triggers (uncomment line below to use it)
-#on: [push, workflow_dispatch]
+Triggers
+on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-veera
-  LOCATION: westUs
+  LOCATION: North Central US
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 2e89365b-8864-49d5-b5f2-f3bb66426738
   WEBAPP-NAME: eshoponweb-webapp-veera
