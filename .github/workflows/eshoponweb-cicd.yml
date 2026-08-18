@@ -5,11 +5,11 @@ name: eShopOnWeb Build and Test
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: az400-ServiceConnection
+  RESOURCE-GROUP: rg-eshoponweb-veera
   LOCATION: westUs
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 2e89365b-8864-49d5-b5f2-f3bb66426738
-  WEBAPP-NAME: eshoponweb-webapp-NAME
+  WEBAPP-NAME: eshoponweb-webapp-veera
 
 jobs:
   #Build, test and publish .net web project in repository
